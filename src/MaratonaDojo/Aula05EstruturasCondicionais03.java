@@ -13,7 +13,7 @@ public class Aula05EstruturasCondicionais03 {
 //        String resultado;
 //
 //        if (salario > 5000) {
-//            resultado = mensagemDoar;
+//            resultado = mensagemDoar;1
 //        } else {
 //            resultado = mensagemNaoDoar;
 //        }
