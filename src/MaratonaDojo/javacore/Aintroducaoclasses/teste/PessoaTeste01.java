@@ -1,6 +1,6 @@
-package MaratonaDojo.javacore.introducaoclasses.teste;
+package MaratonaDojo.javacore.Aintroducaoclasses.teste;
 
-import MaratonaDojo.javacore.introducaoclasses.dominio.Estudante;
+import MaratonaDojo.javacore.Aintroducaoclasses.dominio.Estudante;
 
 public class PessoaTeste01 {
     public static void main(String[] args) {
