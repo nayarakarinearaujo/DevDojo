@@ -6,7 +6,6 @@ public class EstudanteTeste01 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
 
-        estudante.nome = "Zoro";
 
         System.out.println(estudante.sexo);
         System.out.println(estudante.idade);
