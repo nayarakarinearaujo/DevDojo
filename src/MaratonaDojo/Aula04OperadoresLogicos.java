@@ -1,6 +1,6 @@
 package MaratonaDojo;
 
-public class Aula04Operadores {
+public class Aula04OperadoresLogicos {
 
     public static void main(String[] args) {
         //Operadores básicos:
@@ -47,6 +47,7 @@ public class Aula04Operadores {
         int resto = 20 % 7;
         System.out.println(resto);
 
+        //________________________________________________
 
         //Operadores relacionais(sempre vão retorar valor booleano)
         // > : Utilizado quando desejamos verificar se uma variável é maior que outra.
@@ -72,12 +73,14 @@ public class Aula04Operadores {
         System.out.println("Dez é igual a Dez " + isDezIgualDez);
         System.out.println("Dez é diferente de Dez " + isDezDiferenteDez);
 
+        //________________________________________________
+
 
         //Operadores lógicos
         // (AND) && : Utilizado quando desejamos que as duas expressões sejam verdadeiras.
         // (OR) || : Utilizado quando precisamos que pelo meno um das expressões seja verdadeira, assim o restante será verdadeiro.
 
-        //
+
         int idade = 29;
         float salario = 3500F;
         boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
@@ -85,16 +88,11 @@ public class Aula04Operadores {
         System.out.println(isDentroDaLeiMenorQueTrinta + " Menor que 30.");
         System.out.println(isDentroDaLeiMaiorQueTrinta + " Maior que 30.");
 
+        //________________________________________________
 
 
 
-        double valorTotalContaCorente = 200;
-        double valorTotalContaPoupanca = 10000;
-        float valorPlayStation = 500f;
-
-        boolean isPlayStationCincoCompravel = valorTotalContaCorente > valorPlayStation || valorTotalContaPoupanca > valorPlayStation;
-        System.out.println("PlayStation cinco Comprável " + isPlayStationCincoCompravel);
-
+        //________________________________________________
 
         //Operadores de incremento e decremento
         //++ incrementa
