@@ -1,6 +1,6 @@
 package MaratonaDojo;
 
-public class Aula04OperadoresLogicosOr {
+public class Aula04OperadoresLogicosOr02 {
     public static void main(String[] args) {
 
         //Operadores lógicos
