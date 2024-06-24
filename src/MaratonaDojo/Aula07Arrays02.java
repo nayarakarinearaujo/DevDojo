@@ -9,10 +9,14 @@ public class Aula07Arrays02 {
         //String null
         //Se alterar não vai rodar
 
-        int [] idades = new int[3];
+        String[] nomes = new String[3]; //Usar apenas quando for criar um array
 
-        System.out.println(idades[0]);
-        System.out.println(idades[1]);
-        System.out.println(idades[2]);
+        nomes[0] = "Nayara";
+        nomes[1] = "Adriana";
+        nomes[2] = "Mariana";
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println(nomes[i]);
+        }
     }
 }
