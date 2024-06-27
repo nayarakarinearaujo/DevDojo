@@ -1,4 +1,4 @@
-package MaratonaDojo.javacore.Aintroducaoclasses;
+package MaratonaDojo;
 
 public class Aula08ArraysMultidimensionais01 {
     public static void main(String[] args) {
