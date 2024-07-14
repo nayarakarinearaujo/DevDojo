@@ -1,4 +1,4 @@
-package MaratonaDojo.javacore.AIntroducaoclasses.dominio;
+package MaratonaDojo.javacore.AIntroducaoclasses.dominio.AIntroducaoclasses.dominio;
 
 public class  Professor {
     public String nome;

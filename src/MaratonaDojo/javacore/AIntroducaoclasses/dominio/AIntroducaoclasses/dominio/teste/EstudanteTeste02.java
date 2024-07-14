@@ -1,6 +1,6 @@
-package MaratonaDojo.javacore.AIntroducaoclasses.teste;
+package MaratonaDojo.javacore.AIntroducaoclasses.dominio.AIntroducaoclasses.dominio.teste;
 
-import MaratonaDojo.javacore.AIntroducaoclasses.dominio.Estudante;
+import MaratonaDojo.javacore.AIntroducaoclasses.dominio.AIntroducaoclasses.dominio.Estudante;
 
 public class EstudanteTeste02 {
     public static void main(String[] args) {
