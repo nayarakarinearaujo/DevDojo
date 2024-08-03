@@ -14,6 +14,11 @@ public class CalculadoraTeste03 {
 
         System.out.println("------------------------------");
 
+        /*Se o método não tem instruções para imprimir a divisão ou
+         qualquer mensagem relacionada, essa chamada não produzirá
+         nenhuma saída visível no console. Assim não será usado o
+         System.out.println();
+        */
         calculadora.imprimeDivisao(86, 0);
     }
 }
