@@ -1,9 +1,9 @@
-package MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoclasses.dominio;
+package MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoMetodos.dominio;
 
 public class Calculadora {
     //Método é criado na classe
 
-    //Nesse método ele vai ser executado mas não vai retornar nada
+    //Nesse método void ele vai ser executado mas não vai retornar nada para alguém que está chamando
     public void somaDoisNumeros() {
         System.out.println(10 + 10);
     }
@@ -13,6 +13,7 @@ public class Calculadora {
     }
 
     //Passagem de parâmetros nos métodos
+    //Deixar máximo de 2 argumentos por parâmetro
     public void multiplicaDoisNumeros(int num1, int num2) {
         System.out.println(num1 * num2);
     }
