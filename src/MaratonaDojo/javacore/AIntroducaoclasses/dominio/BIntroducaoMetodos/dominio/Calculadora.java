@@ -62,6 +62,23 @@ public class Calculadora {
         No exemplo estamos fazendo uma cópia dos valores para
         a calculadoraTeste04 */
     }
+
+    //Métodos pt 09 - Varargs
+    public void somarArray (int[] numeros) {
+        int soma = 0;
+        for(int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void sommaVarArgs(int... numeros) {
+        int soma = 0;
+        for(int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
 
 
