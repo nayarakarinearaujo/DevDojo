@@ -3,7 +3,7 @@ package MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoMetodos.Test
 import MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoMetodos.dominio.Estudante;
 import MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoMetodos.dominio.ImpressoraEstudante;
 
-public class EstudanteTest01 {
+public class EstudanteTeste01 {
     public static void main(String[] args) {
 
         Estudante estudante01 = new Estudante();

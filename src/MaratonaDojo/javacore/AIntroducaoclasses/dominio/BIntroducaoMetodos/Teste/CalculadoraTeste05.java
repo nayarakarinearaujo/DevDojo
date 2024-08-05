@@ -2,7 +2,7 @@ package MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoMetodos.Test
 
 import MaratonaDojo.javacore.AIntroducaoclasses.dominio.BIntroducaoMetodos.dominio.Calculadora;
 
-public class CalculadoraTest05 {
+public class CalculadoraTeste05 {
     public static void main(String[] args) {
 
         Calculadora calculadora = new Calculadora();
