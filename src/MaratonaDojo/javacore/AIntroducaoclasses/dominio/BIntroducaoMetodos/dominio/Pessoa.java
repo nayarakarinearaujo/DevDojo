@@ -12,10 +12,10 @@ public class Pessoa {
     private String nome;
     private int idade;
 
-//    public  void imprime() {
-//        System.out.println(this.nome);
-//        System.out.println(this.idade);
-//    }
+    public  void imprime() {
+        System.out.println(this.nome);
+        System.out.println(this.idade);
+    }
 
     //Quando tem atributos privados só conseguimos acessar com um método publico
 

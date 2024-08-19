@@ -9,12 +9,10 @@ public class FuncionarioTeste {
         Funcionario funcionario = new Funcionario(); // Use nome de variável em minúscula
         ImpressoraFuncionario impressora = new ImpressoraFuncionario();
 
-        funcionario.nome = "Nayara";
-        funcionario.idade = 31;
-
-        funcionario.salario = new double[] {2700, 2600, 2650};
+        funcionario.setNome("Nayara");
+        funcionario.setIdade(31);
+        funcionario.setSalario(new double[] {2700, 2600, 2650});
 
         funcionario.calcularMediaSalario();
-        impressora.imprime(funcionario); // Passa o objeto funcionario para o método imprime
     }
 }
