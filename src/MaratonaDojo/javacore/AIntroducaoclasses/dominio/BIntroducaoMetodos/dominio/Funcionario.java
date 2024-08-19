@@ -76,7 +76,4 @@ public class Funcionario {
         return mediaSalario;
     }
 
-    public void setMediaSalario(double mediaSalario) {
-        this.mediaSalario = mediaSalario;
-    }
 }
